@@ -3,8 +3,6 @@ import React from 'react'
 import { MdOutlineAlternateEmail, MdOutlineCake } from 'react-icons/md'
 import { HiOutlineLocationMarker, HiOutlineMail } from 'react-icons/hi'
 import Image from 'next/image'
-import workspaceLight from '../assets/about/workspace-light.jpg'
-import workspaceDark from '../assets/about/workspace-dark.jpg'
 import avatar from '../assets/about/avatar.jpg'
 import arrowDark from '../assets/curved-arrow-dark.png'
 import arrowLight from '../assets/curved-arrow-light.png'
@@ -14,7 +12,6 @@ import { Footer } from '../components/Footer'
 
 const About = () => {
 
-    const workspace = useColorModeValue(workspaceLight, workspaceDark)
     const arrow = useColorModeValue(arrowLight, arrowDark)
     const textColor = useColorModeValue('gray.500', 'gray.400')
 
@@ -58,7 +55,7 @@ const About = () => {
                                 <Stack spacing={2}>
                                     <Stack spacing={0}>
                                         <Text as='p'>
-                                        In my quest to discover what I'm truly passionate about, I explored various fields. However, I ultimately found front-end development to be the most captivating.
+                                        In my quest to discover what I&apos;m truly passionate about, I explored various fields. However, I ultimately found front-end development to be the most captivating.
                                         </Text>
                                         <Text as='p'>
                                             I have started my development journey from taking FreeCodeCamp courses on html, css, javascript, react and algorithms and data structures, then proceeded to watch youtube tutorials from various authors, and finally, found myself doing pet-projects necessary to get a job in the field.
