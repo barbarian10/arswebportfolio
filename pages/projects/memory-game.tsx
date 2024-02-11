@@ -91,7 +91,7 @@ const Project7 = (props: Props) => {
                                         <Text>Designer</Text>
                                     </DetailsStack>
                                     <DetailsStack heading='duration' stackSpacing={2}>
-                                        <HStack><AiOutlineCalendar /><Text fontSize='sm'>June 2020 to August 2020</Text></HStack>
+                                        <HStack><AiOutlineCalendar /><Text fontSize='sm'>June 2023 to August 2023</Text></HStack>
                                     </DetailsStack>
                                 </Stack>
                             </Stack>
